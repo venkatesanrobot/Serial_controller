@@ -3,6 +3,7 @@ import serial.tools.list_ports
 from time import sleep
 
 
+
 class ComSerialCommunication:
 
     def __init__(self):
