@@ -1,6 +1,9 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtCore import QFile
+from serial_working import ComSerialCommunication
+
+print(dir(ComSerialCommunication))
 from design import Ui_port
 
 class MainWindow(QMainWindow):
