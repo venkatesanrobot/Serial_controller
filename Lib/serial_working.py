@@ -2,6 +2,7 @@ import serial
 import serial.tools.list_ports
 
 
+
 class ComSerialCommunication:
 
     def __init__(self):
