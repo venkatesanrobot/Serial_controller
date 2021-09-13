@@ -18,15 +18,15 @@ class ComSerialCommunication:
         self.ser_com.timeout = 10
         self.ser_com.write_timeout = 20
 
-    def port_write(self, write_key):
+    def port_write(self,port, write_key):
         self.ser_com.dsrdtr = False
-        self.ser_com.port = self.PORT[0]
+        self.ser_com.port = port
         self.ser_com.open()
         self.ser_com.write(str(write_key).encode("utf-8"))
         self.ser_com.close()
 
-    def port_read(self):
-        self.ser_com.port = self.PORT[0]
+    def port_read(self,port):
+        self.ser_com.port = port
         self.enterclose = 1
         self.ser_com.open()
         sleep(2)

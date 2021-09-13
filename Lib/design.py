@@ -1,13 +1,4 @@
-# -*- coding: utf-8 -*-
 
-################################################################################
-## Form generated from reading UI file 'form.ui'
-##
-## Created by: Qt User Interface Compiler version 6.1.3
-##
-## WARNING! All changes made in this file will be lost when recompiling UI file!
-################################################################################
-# serial
 
 from PySide6.QtCore import *  # type: ignore
 from PySide6.QtGui import *  # type: ignore
